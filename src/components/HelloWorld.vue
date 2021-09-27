@@ -113,6 +113,12 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  created() {
+    this.$EventBus.$on('getTarget', getTarget => {
+      debugger
+      console.log(getTarget)
+    })
   }
 }
 </script>

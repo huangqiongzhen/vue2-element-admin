@@ -3,3 +3,16 @@
     <h1>This is an about page</h1>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      msg: 'about的数据'
+    }
+  },
+  mounted() {
+    debugger
+    this.$EventBus.$emit('getTarget', this.msg)
+  }
+}
+</script>
