@@ -1,5 +1,6 @@
 const port = process.env.port || 8088
 const path = require('path')
+const proxy = require('./vue.proxy.config')
 
 function resolve(dir) {
   return path.join(__dirname, dir)
@@ -17,20 +18,10 @@ module.exports = {
       warnings: false,
       errors: true
     },
-    proxy: {
-      [process.env.VUE_APP_BASE_API]: {
-        target: 'https://www.fastmock.site/mock',
-        ws: true,
-        pathRewrite: {
-          [process.env.VUE_APP_BASE_API]: ''
-        },
-        changeOrigin: true
-      }
-    }
+    proxy: proxy
   },
   // 设置别名
   configureWebpack: {
-    name: 'vue2-vant-master',
     resolve: {
       alias: {
         '@': resolve('src'),
