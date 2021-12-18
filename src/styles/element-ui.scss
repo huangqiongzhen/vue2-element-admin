@@ -12,7 +12,10 @@
 }
 .el-scrollbar{
     height:100%;
-    .el-scrollbar__bar.is-vertical {
+    &__bar.is-vertical {
         display: none;
+    }
+    &__wrap{
+        overflow-x: hidden;
     }
 }
