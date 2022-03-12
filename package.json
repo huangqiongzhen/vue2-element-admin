@@ -47,11 +47,14 @@
       "git add"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -eV"
-    }
+  "config": {
+      "commitizen": {
+          "path": "cz-customizable"
+      }
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint -eV"
   },
   "eslintConfig": {
     "root": true,
