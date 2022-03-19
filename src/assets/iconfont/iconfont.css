@@ -1,219 +1,168 @@
 @font-face {
-  font-family: "iconfont"; /* Project id 522546 */
-  src: url('iconfont.woff2?t=1639812605888') format('woff2'),
-       url('iconfont.woff?t=1639812605888') format('woff'),
-       url('iconfont.ttf?t=1639812605888') format('truetype');
+    font-family: "iconfont"; /* Project id 522546 */
+    src:
+        url('iconfont.woff2?t=1639812605888') format('woff2'),
+        url('iconfont.woff?t=1639812605888') format('woff'),
+        url('iconfont.ttf?t=1639812605888') format('truetype');
 }
 
 .iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
 }
-
-.icon-gongzitiao:before {
-  content: "\e686";
+.icon-gongzitiao::before {
+    content: "\e686";
 }
-
-.icon-zhediecaidan:before {
-  content: "\e619";
+.icon-zhediecaidan::before {
+    content: "\e619";
 }
-
-.icon-zhediecaidan1:before {
-  content: "\e65a";
+.icon-zhediecaidan1::before {
+    content: "\e65a";
 }
-
-.icon-gongzitiao1:before {
-  content: "\e608";
+.icon-gongzitiao1::before {
+    content: "\e608";
 }
-
-.icon-shaixuan:before {
-  content: "\e620";
+.icon-shaixuan::before {
+    content: "\e620";
 }
-
-.icon-yonghu:before {
-  content: "\e610";
+.icon-yonghu::before {
+    content: "\e610";
 }
-
-.icon-qingkong:before {
-  content: "\e68e";
+.icon-qingkong::before {
+    content: "\e68e";
 }
-
-.icon-yonghu1:before {
-  content: "\e60a";
+.icon-yonghu1::before {
+    content: "\e60a";
 }
-
-.icon-shezhiH:before {
-  content: "\e62b";
+.icon-shezhiH::before {
+    content: "\e62b";
 }
-
-.icon-yonghu2:before {
-  content: "\e770";
+.icon-yonghu2::before {
+    content: "\e770";
 }
-
-.icon-tuichu1:before {
-  content: "\e61f";
+.icon-tuichu1::before {
+    content: "\e61f";
 }
-
-.icon-yonghu3:before {
-  content: "\e7b5";
+.icon-yonghu3::before {
+    content: "\e7b5";
 }
-
-.icon-jiaoliu:before {
-  content: "\e607";
+.icon-jiaoliu::before {
+    content: "\e607";
 }
-
-.icon-lnicon08:before {
-  content: "\e60b";
+.icon-lnicon08::before {
+    content: "\e60b";
 }
-
-.icon-jiaoliu1:before {
-  content: "\e60e";
+.icon-jiaoliu1::before {
+    content: "\e60e";
 }
-
-.icon-banli:before {
-  content: "\e685";
+.icon-banli::before {
+    content: "\e685";
 }
-
-.icon-shiyongbangzhu:before {
-  content: "\e60f";
+.icon-shiyongbangzhu::before {
+    content: "\e60f";
 }
-
-.icon-jiaoliu2:before {
-  content: "\e62d";
+.icon-jiaoliu2::before {
+    content: "\e62d";
 }
-
-.icon-shiyongbangzhu1:before {
-  content: "\e63e";
+.icon-shiyongbangzhu1::before {
+    content: "\e63e";
 }
-
-.icon-chaxunanjian:before {
-  content: "\eb69";
+.icon-chaxunanjian::before {
+    content: "\eb69";
 }
-
-.icon-anjiantongjifenxi:before {
-  content: "\e616";
+.icon-anjiantongjifenxi::before {
+    content: "\e616";
 }
-
-.icon-jiaoliu3:before {
-  content: "\e69b";
+.icon-jiaoliu3::before {
+    content: "\e69b";
 }
-
-.icon-minglu:before {
-  content: "\e7db";
+.icon-minglu::before {
+    content: "\e7db";
 }
-
-.icon-dianxinganli:before {
-  content: "\e604";
+.icon-dianxinganli::before {
+    content: "\e604";
 }
-
-.icon-shoucangxinxidianxinganli:before {
-  content: "\e6b3";
+.icon-shoucangxinxidianxinganli::before {
+    content: "\e6b3";
 }
-
-.icon-shiyongbangzhu2:before {
-  content: "\e658";
+.icon-shiyongbangzhu2::before {
+    content: "\e658";
 }
-
-.icon-banli1:before {
-  content: "\e659";
+.icon-banli1::before {
+    content: "\e659";
 }
-
-.icon-dengji:before {
-  content: "\e60c";
+.icon-dengji::before {
+    content: "\e60c";
 }
-
-.icon-banli2:before {
-  content: "\e654";
+.icon-banli2::before {
+    content: "\e654";
 }
-
-.icon-xitongshiyongbangzhu:before {
-  content: "\e60d";
+.icon-xitongshiyongbangzhu::before {
+    content: "\e60d";
 }
-
-.icon-anjiantongji:before {
-  content: "\e73e";
+.icon-anjiantongji::before {
+    content: "\e73e";
 }
-
-.icon-icon_dianxinganli:before {
-  content: "\e6b4";
+.icon-icon_dianxinganli::before {
+    content: "\e6b4";
 }
-
-.icon-tuichudenglu1:before {
-  content: "\e763";
+.icon-tuichudenglu1::before {
+    content: "\e763";
 }
-
-.icon-tuichudenglu:before {
-  content: "\e618";
+.icon-tuichudenglu::before {
+    content: "\e618";
 }
-
-.icon-user:before {
-  content: "\e603";
+.icon-user::before {
+    content: "\e603";
 }
-
-.icon-bianmindafu:before {
-  content: "\e67d";
+.icon-bianmindafu::before {
+    content: "\e67d";
 }
-
-.icon-ziyuan:before {
-  content: "\e667";
+.icon-ziyuan::before {
+    content: "\e667";
 }
-
-.icon-zhenggaifankui:before {
-  content: "\e602";
+.icon-zhenggaifankui::before {
+    content: "\e602";
 }
-
-.icon-pingjiaguanli:before {
-  content: "\e600";
+.icon-pingjiaguanli::before {
+    content: "\e600";
 }
-
-.icon-cb-pingjiazhibiao:before {
-  content: "\e6b2";
+.icon-cb-pingjiazhibiao::before {
+    content: "\e6b2";
 }
-
-.icon-zhibiaoguanli:before {
-  content: "\e64d";
+.icon-zhibiaoguanli::before {
+    content: "\e64d";
 }
-
-.icon-dubanshijian:before {
-  content: "\e676";
+.icon-dubanshijian::before {
+    content: "\e676";
 }
-
-.icon-xinxi:before {
-  content: "\e601";
+.icon-xinxi::before {
+    content: "\e601";
 }
-
-.icon-heshi:before {
-  content: "\eb6e";
+.icon-heshi::before {
+    content: "\eb6e";
 }
-
-.icon-xiangqing:before {
-  content: "\e711";
+.icon-xiangqing::before {
+    content: "\e711";
 }
-
-.icon-fanhui:before {
-  content: "\e6dd";
+.icon-fanhui::before {
+    content: "\e6dd";
 }
-
-.icon-xinxi1:before {
-  content: "\e605";
+.icon-xinxi1::before {
+    content: "\e605";
 }
-
-.icon--:before {
-  content: "\e75f";
+.icon--::before {
+    content: "\e75f";
 }
-
-.icon-daiban:before {
-  content: "\e68b";
+.icon-daiban::before {
+    content: "\e68b";
 }
-
-.icon-shouye:before {
-  content: "\e615";
+.icon-shouye::before {
+    content: "\e615";
 }
-
-.icon-tongjifenxi:before {
-  content: "\e606";
+.icon-tongjifenxi::before {
+    content: "\e606";
 }
-

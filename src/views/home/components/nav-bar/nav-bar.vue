@@ -4,9 +4,7 @@
       <span :class="['iconfont',sidebarActive?'icon-zhediecaidan':'icon-zhediecaidan1' ]" @click="toggleHandle()" />
     </div>
     <div class="right-menu">
-       <div class="right-menu-item">
-          
-       </div>
+      <div class="right-menu-item" />
     </div>
   </div>
 </template>
@@ -32,19 +30,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.nav-bar{
-  padding: 0 16px;
-  width: 100%;
-  height:50px;
-  line-height:50px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgb(0 21 41 / 8%);
-  .menu-icon{
-    float: left;
-    cursor: pointer;
-  }
-  .right-menu{
-    float: right;
-  }
+.nav-bar {
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    padding: 0 16px;
+    box-shadow: 0 1px 4px rgb(0 21 41 / 8%);
+    line-height: 50px;
+
+    .menu-icon {
+        cursor: pointer;
+        float: left;
+    }
+    .right-menu {
+        float: right;
+    }
 }
 </style>
